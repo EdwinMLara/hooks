@@ -25,7 +25,7 @@ const CounterActionUseReducer: React.FC = () => {
 
   return (
     <div>
-        <h1>Probando useReducer hook</h1>
+        <h2>Probando useReducer hook</h2>
         <h3>Count: {state.count}</h3>
         <button onClick={() => dispatch({ type: 'increment', payload: 5 })}>Increment</button>
         <button onClick={() => dispatch({ type: 'decrement', payload: 5 })}>Decrement</button>
