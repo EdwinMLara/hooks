@@ -7,6 +7,7 @@ import ThemeUseContext from './components/usecontext/ThemeUseContext';
 import InputUseRef from './components/useRef/InputUseRef';
 import PostUseEffect from './components/useeffect/PostUseEffect';
 import CounterActionUseReducer from './components/usereducer/CounterActionUseReducer';
+import ResizeUseLayoutEffect from './components/useLayoutEffect/ResizeUseLayoutEffect';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <PostUseEffect/>
       <h1 style={{color:"red"}}>Hook useReduccer</h1>
       <CounterActionUseReducer/>
+      <h1 style={{color:"red"}}>Hook useLayoutEffect</h1>
+      <ResizeUseLayoutEffect/>
     </div>
   );
 }
