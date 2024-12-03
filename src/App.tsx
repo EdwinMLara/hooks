@@ -8,6 +8,7 @@ import InputUseRef from './components/useRef/InputUseRef';
 import PostUseEffect from './components/useeffect/PostUseEffect';
 import CounterActionUseReducer from './components/usereducer/CounterActionUseReducer';
 import ResizeUseLayoutEffect from './components/useLayoutEffect/ResizeUseLayoutEffect';
+import TodoListUseMemo from './components/useMemo/TodoListUseMemo';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       <CounterActionUseReducer/>
       <h1 style={{color:"red"}}>Hook useLayoutEffect</h1>
       <ResizeUseLayoutEffect/>
+      <h1 style={{color:"red"}}>Hook useLayoutEffect</h1>
+      <TodoListUseMemo/>
     </div>
   );
 }
