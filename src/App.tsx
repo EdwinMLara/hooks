@@ -9,6 +9,7 @@ import PostUseEffect from './components/useeffect/PostUseEffect';
 import CounterActionUseReducer from './components/usereducer/CounterActionUseReducer';
 import ResizeUseLayoutEffect from './components/useLayoutEffect/ResizeUseLayoutEffect';
 import TodoListUseMemo from './components/useMemo/TodoListUseMemo';
+import ProductPageUseCallback from './components/usecallback/ProductPageUseCallback';
 
 function App() {
   return (
@@ -31,8 +32,10 @@ function App() {
       <CounterActionUseReducer/>
       <h1 style={{color:"red"}}>Hook useLayoutEffect</h1>
       <ResizeUseLayoutEffect/>
-      <h1 style={{color:"red"}}>Hook useLayoutEffect</h1>
+      <h1 style={{color:"red"}}>Hook useMemo</h1>
       <TodoListUseMemo/>
+      <h1 style={{color:"red"}}>Hook useCallBack</h1>
+      <ProductPageUseCallback/>
     </div>
   );
 }
